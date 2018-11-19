@@ -12,6 +12,8 @@ using matrix::SquareMatrix;
 #include "Eigen/SVD"
 using Eigen::MatrixXf;
 using Eigen::VectorXf;
+using Eigen::Vector4f;
+using Eigen::Vector3f;
 
 class QuadEstimatorEKF : public BaseQuadEstimator
 {
